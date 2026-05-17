@@ -1,0 +1,17 @@
+#!/bin/sh
+# Setup environment variables for the system
+export SYSNAME=nto
+export TERM=qansi
+export SHELL=/bin/ksh
+export ADAPTERTYPE=mcs7830
+export HOME=/home/delphi
+
+export PATH=/ffs/audimib:/persistence/audimib:/extbin/apps/bin:/extbin/apps/usr/bin:/proc/boot:/ffs/usr/bin:/ffs/bin:/sbin:.:/ffs/sbin:/apps/bin
+export LD_LIBRARY_PATH=/ffs/audimib:/persistence/audimib:/proc/boot:/ffs/usr/lib:/ffs/lib:/extbin/apps/lib:/extbin/apps/rcc/lib:/apps/lib:/apps/usr/lib
+export IPL_CONFIG_COMM_FACTORY_PATH=/apps/usr/lib/factories
+if [ -f /home/root/dt_eso_enable ]; then
+    export IPL_CONFIG_DIR=/apps/usr/config/production
+else
+    export IPL_CONFIG_DIR=/apps/usr/config/production_no_tracing
+fi
+
