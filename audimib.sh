@@ -194,7 +194,7 @@ mount -u /net/mmx/mnt/system
 if [[ $PatchNARNAV -eq 1 && $reg -eq "US" && -f $SDCARD/support_files/app_data.7z ]] ; then
   echo "Prepare NAR Navi." >> $SDCARD/log.txt
   mount -u /net/mmx/mnt/app
-  cp -p $SDCARD/support_files/xJSONParser.jar /net/mmx/mnt/app/eso/hmi/lsd/jars/
+  cp -p $SDCARD/support_files/Navigation.jar /net/mmx/mnt/app/eso/hmi/lsd/jars/
 #  tar -zxUvf $SDCARD/app_data.dat -C / >/dev/null 2>&1
   7z x $SDCARD/support_files/app_data.7z -o/ -y
   chmod -R +x /net/mmx/mnt/app/navigation/
