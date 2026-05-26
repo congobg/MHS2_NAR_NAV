@@ -165,6 +165,9 @@ This procedure is automated by a separate community tool. Reference:
 
 ---
 
+## Ways to make MAP SD
+https://github.com/LateAlways/MHI2-to-MHS2
+
 ## Notes
 
 - Navigation files are sourced from EU firmware 1242; verified on US 1242; expected compatible with US 2037.
