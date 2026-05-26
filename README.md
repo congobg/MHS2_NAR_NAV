@@ -167,6 +167,7 @@ This procedure is automated by a separate community tool. Reference:
 
 ## Ways to make MAP SD
 https://github.com/LateAlways/MHI2-to-MHS2
+https://github.com/congobg/MHS2_NAR_NAV/blob/main/support_files/delphi_harman_map.php (i used this back in 2022 to make the NAR map, before that in 2021 to make the MHS map from MHI2 map, code is not pretty but it did the job back then)
 
 ## Notes
 
