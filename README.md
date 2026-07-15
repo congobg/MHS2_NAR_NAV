@@ -12,7 +12,7 @@ Test result is here --> https://www.youtube.com/watch?v=HYwrvbv5j7o
 
 ## Background
 
-The MHS2 (Multi-HMI System 2) is the infotainment platform used in several Audi models sold in North America. Factory NAR units lack navigation not due to a hardware limitation, but because Audi ships the units without:
+The MHS2 is the infotainment platform used in several Audi models sold in North America. Factory NAR units lack navigation not due to a hardware limitation, but because Audi ships the units without:
 
 1. The navigation application binaries, shared libraries, and supporting data files.
 2. The Java class files that integrate the navigation stack with the HMI (Human-Machine Interface) layer.
